@@ -17,12 +17,13 @@ const TodoList = () =>{
   const { filtersDispatch }=context.dispatch;  
   /*--------------------------Effect--------------------------*/  
   useEffect(()=>{
+  
     if(todo !== ''){
       if(todos.includes(todo) === false){
         context.dispatch.formDispatch(addTodo(todo));
       }
     }
-  },[todo])
+  },[todo,todos])
   /*-----------------------Render Filters----------------------*/
   const renderFilter=(t,index)=>{
     if(mode === t.mode)
@@ -33,7 +34,7 @@ const TodoList = () =>{
   /*-----------------------------------------------------------*/
   return(
     <>
-      <h1 className='title-todo' >Choose Your Todo !</h1>
+      <h1 className='title-todo' >Todo Lists !</h1>
       <Form />
       <div className='button-filters-container' >
         <Button 
