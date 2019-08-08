@@ -1,0 +1,28 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $border-radious;
+    background: $off-gray;
+    height: 100px;
+    margin: auto;
+    width: calc( 100% - 30em );
+
+    .input-form {
+        width: 340px;
+        height: 30px;
+        border: 0;
+        background: $off-light-blue;
+        border-radius: 3px;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .button-form {
+        height: 32px;
+        border: 0;
+        margin-left: 5px;
+        border-radius: 5px;
+        background: $off-blue;
+        font-size: 17px;
+    }
+}

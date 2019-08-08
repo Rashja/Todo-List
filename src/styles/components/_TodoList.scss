@@ -1,0 +1,30 @@
+.title-todo {
+    color: $off-light-blue;
+    display: flex;
+    justify-content: center
+}
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: $border-radious;
+    background: $off-gray;
+    margin: auto;
+    width: calc(100% - 20em);
+}
+.button-filters-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 32px;
+    width: calc(100% - 23em);
+    margin: 20px auto;
+    .done-button-filter{
+        background: $off-green;
+    }
+    .un-done-button-filter{
+        background: $off-red;
+    }
+    .all-button-filter{
+        background: $off-orange;
+    }
+}
