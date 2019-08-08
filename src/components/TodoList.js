@@ -23,7 +23,7 @@ const TodoList = () =>{
         context.dispatch.formDispatch(addTodo(todo));
       }
     }
-  },[todo,todos])
+  },[todo])
   /*-----------------------Render Filters----------------------*/
   const renderFilter=(t,index)=>{
     if(mode === t.mode)
