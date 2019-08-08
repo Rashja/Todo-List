@@ -6,7 +6,8 @@
     background: $off-gray;
     height: 100px;
     margin: auto;
-    width: calc( 100% - 30em );
+    min-width: 489px;
+    width: calc( 100% - 24em );
 
     .input-form {
         width: 340px;

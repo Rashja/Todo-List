@@ -11,6 +11,7 @@
     background: $off-gray;
     margin: auto;
     width: calc(100% - 20em);
+    min-width: 700px;
 }
 .button-filters-container {
     display: flex;
@@ -20,11 +21,14 @@
     margin: 20px auto;
     .done-button-filter{
         background: $off-green;
+        width:120px;
     }
     .un-done-button-filter{
         background: $off-red;
+        width:120px;
     }
     .all-button-filter{
         background: $off-orange;
+        width:120px;
     }
 }
