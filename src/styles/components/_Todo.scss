@@ -30,8 +30,11 @@
     }
 }
 .done-color {
-    border:2px solid $off-green !important;
+    border:2px solid $off-green ;
+    background: $off-light-green
 }
 .un-done-color {
-    border:2px solid $off-red !important ;
+    border:2px solid $off-red ;
+    background: $off-light-red
+
 }
